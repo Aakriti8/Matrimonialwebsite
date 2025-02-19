@@ -1,0 +1,98 @@
+header{
+    width: 100%;
+    height: 150vh;
+    margin-top: 0px;
+    background-size: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(p11.jpeg);
+    font-family: sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+.info{
+    color: #F3F4F6;
+    font-size: 10px;
+    padding: 20px 70px;
+    cursor: pointer;
+}
+.info span{
+    margin: 0 10px;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    padding: 10px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    padding-top: 70px;
+    padding-inline-start: 30px;
+}
+.menu a{
+    text-decoration: none;
+    color: #F3F4F6;
+    padding: 10px 20px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.menu a:last-child{
+    background: #e37074;
+    border-radius: 8px;
+}
+.menu a:hover{
+    background: #e37074;
+    border-radius: 8px;
+}
+.bx{
+    padding: 40px 45%;
+    size: auto;
+}
+.card{
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+.card img{
+    position: relative;
+    background:#FFF0F5 ;
+}
+.card-body{    
+    font-style: inherit;
+    font-size: x-large;
+    font-family: 'Lobster',cursive;
+    text-align: center;
+    color: #6bded3;
+    background:#FFF0F5;
+}
+
+.card-body h5{
+    color: #FF5A60;
+    font-style: bold;
+    font-family:'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-align: center;
+}
+.button{
+    padding-top: 40px;
+    align-items: center;
+    padding-left: 48%;
+}
+.favorite{
+    background: #40E0D0;
+    color: #fff;
+    padding: 17px 20px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 10px;
+    font-size: 23px;
+    line-height: 22px;
+    border: none;
+    display: inline-block;
+    margin: 40px 0 0 0;
+}
+.button :hover{
+    background: #FF5A60;
+}

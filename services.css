@@ -1,0 +1,88 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+header{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(p11.jpeg);
+    width: 100%;
+    height: 140vh;
+    margin-top: 0px;
+    background-size: contain;
+    
+}
+.info{
+    color: #F3F4F6;
+    font-size: 10px;
+    padding: 20px 70px;
+    cursor: pointer;
+}
+.info span{
+    margin: 0 10px;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    padding: 10px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    padding-top: 70px;
+    padding-inline-start: 30px;
+}
+.menu a{
+    text-decoration: none;
+    color: #F3F4F6;
+    padding: 10px 20px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.menu a:last-child{
+    background: #e37074;
+    border-radius: 8px;
+}
+.menu a:hover{
+    background: #e37074;
+    border-radius: 8px;
+}
+.bx{
+    padding: 40px 45%;
+    size: auto;
+}
+.card{
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+.card img{
+    position: relative;
+    background:#FFF0F5 ;
+}
+.card-body{    
+    font-style: inherit;
+    font-size: large;
+    font-family: 'Lobster',cursive;
+    text-align: center;
+    color: black;
+    background:#FFF0F5;
+}
+
+.card-body h5{
+    color: #FF5A60;
+    font-style: bold;
+    font-family:'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-align: center;
+}
+.owldots{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 10px 0;
+}
+.owldots button{
+    background: #f2f2f2;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 100%;
+    margin: 0 2px;
+}
